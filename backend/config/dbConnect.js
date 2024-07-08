@@ -5,7 +5,7 @@ const {
 const dbConnect = () => {
   try {
     const conn = mongoose.connect(
-      "mongodb://127.0.0.1/caulong"
+      "mongodb+srv://hoa2051220041:bon13052002@glcl.vbj9g76.mongodb.net/?retryWrites=true&w=majority&appName=glcl"
     );
     console.log(
       "Database connect successfully"
